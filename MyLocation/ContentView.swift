@@ -7,6 +7,8 @@
 
 import SwiftUI
 import CoreData
+import MapKit
+
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
@@ -17,29 +19,41 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-            Text("Select an item")
-        }
+        MapView();
+            
+    
+//        NavigationView {
+//            List {
+//                ForEach(items) { item in NavigationLink {
+//                    Image(systemName: "heart")
+//                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+//                    }
+//
+//                label: {
+//                    Image(systemName: "heart")
+//                    VStack(alignment: .leading) {
+//
+//                        Text(item.timestamp!, formatter: itemFormatter) .font(.callout)
+//                        Text("Love ME !!") .font(.subheadline)
+//
+//                            }
+//
+//                    }
+//                }
+//                .onDelete(perform: deleteItems)
+//            }
+//            .toolbar {
+//                ToolbarItem(placement: .navigationBarTrailing) {
+//                    EditButton()
+//                }
+//                ToolbarItem {
+//                    Button(action: addItem) {
+//                        Label("Add Item", systemImage: "plus")
+//                    }
+//                }
+//            }
+//            Text("Select an item")
+//        }
     }
 
     private func addItem() {
@@ -76,7 +90,7 @@ struct ContentView: View {
 
 private let itemFormatter: DateFormatter = {
     let formatter = DateFormatter()
-    formatter.dateStyle = .short
+    formatter.dateStyle = .medium
     formatter.timeStyle = .medium
     return formatter
 }()
