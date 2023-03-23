@@ -4,7 +4,7 @@
 //
 //  Created by Kiren Paul on 23/3/2566 BE.
 //
-
+// refer https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
 import SwiftUI
 
 struct LandmarkList: View {
@@ -13,7 +13,7 @@ struct LandmarkList: View {
         NavigationView() {
             List(landmarks ){ landmark in
                 NavigationLink {
-                    LandmarkDetail()
+                    LandmarkDetail(landmark: landmark)
                 } label: {
                     LandmarkRow(landmark: landmark)
                 }
