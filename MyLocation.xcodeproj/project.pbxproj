@@ -29,6 +29,7 @@
 		23D3209629CCAA380087E6EF /* MyLocationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3209529CCAA380087E6EF /* MyLocationMap.swift */; };
 		23F71B0C29D2DE1B00F7E8EB /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F71B0B29D2DE1B00F7E8EB /* FavoriteButton.swift */; };
 		23F71B1329D2E3B900F7E8EB /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F71B1229D2E3B900F7E8EB /* HexagonParameters.swift */; };
+		23F71B1529D2E4DD00F7E8EB /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F71B1429D2E4DD00F7E8EB /* BadgeBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		23D3209529CCAA380087E6EF /* MyLocationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationMap.swift; sourceTree = "<group>"; };
 		23F71B0B29D2DE1B00F7E8EB /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		23F71B1229D2E3B900F7E8EB /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		23F71B1429D2E4DD00F7E8EB /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				23F71B0E29D2DF2200F7E8EB /* Helpers */,
 				23F71B0D29D2DF0600F7E8EB /* Landmarks */,
 				23F71B0F29D2DF4E00F7E8EB /* CommonViews */,
+				23F71B1429D2E4DD00F7E8EB /* BadgeBackground.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				23D3209629CCAA380087E6EF /* MyLocationMap.swift in Sources */,
 				23D3208D29CC621B0087E6EF /* LandmarkRow.swift in Sources */,
 				23D3207F29CC551E0087E6EF /* CircleImage.swift in Sources */,
+				23F71B1529D2E4DD00F7E8EB /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
