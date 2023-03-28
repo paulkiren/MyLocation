@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct MyLocationApp: App {
+    @StateObject private var modelData = ModelData()
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
