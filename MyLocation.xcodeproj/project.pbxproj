@@ -186,10 +186,7 @@
 				23F71B0E29D2DF2200F7E8EB /* Helpers */,
 				23F71B0D29D2DF0600F7E8EB /* Landmarks */,
 				23F71B0F29D2DF4E00F7E8EB /* CommonViews */,
-				23F71B1429D2E4DD00F7E8EB /* BadgeBackground.swift */,
-				23F71B1629D2F32B00F7E8EB /* BadgeSymbol.swift */,
-				23F71B1829D2F3BF00F7E8EB /* RotatedBadgeSymbol.swift */,
-				23F71B1A29D2F40900F7E8EB /* Badge.swift */,
+				23F71B1C29D2F4F300F7E8EB /* Badges */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,6 +237,17 @@
 				23D3209529CCAA380087E6EF /* MyLocationMap.swift */,
 			);
 			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		23F71B1C29D2F4F300F7E8EB /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				23F71B1429D2E4DD00F7E8EB /* BadgeBackground.swift */,
+				23F71B1629D2F32B00F7E8EB /* BadgeSymbol.swift */,
+				23F71B1829D2F3BF00F7E8EB /* RotatedBadgeSymbol.swift */,
+				23F71B1A29D2F40900F7E8EB /* Badge.swift */,
+			);
+			path = Badges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
