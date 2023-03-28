@@ -32,6 +32,7 @@
 		23F71B1529D2E4DD00F7E8EB /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F71B1429D2E4DD00F7E8EB /* BadgeBackground.swift */; };
 		23F71B1729D2F32B00F7E8EB /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F71B1629D2F32B00F7E8EB /* BadgeSymbol.swift */; };
 		23F71B1929D2F3BF00F7E8EB /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F71B1829D2F3BF00F7E8EB /* RotatedBadgeSymbol.swift */; };
+		23F71B1B29D2F40900F7E8EB /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F71B1A29D2F40900F7E8EB /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		23F71B1429D2E4DD00F7E8EB /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		23F71B1629D2F32B00F7E8EB /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		23F71B1829D2F3BF00F7E8EB /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		23F71B1A29D2F40900F7E8EB /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				23F71B1429D2E4DD00F7E8EB /* BadgeBackground.swift */,
 				23F71B1629D2F32B00F7E8EB /* BadgeSymbol.swift */,
 				23F71B1829D2F3BF00F7E8EB /* RotatedBadgeSymbol.swift */,
+				23F71B1A29D2F40900F7E8EB /* Badge.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F71B1329D2E3B900F7E8EB /* HexagonParameters.swift in Sources */,
+				23F71B1B29D2F40900F7E8EB /* Badge.swift in Sources */,
 				239FABF129C46457003FF50C /* Persistence.swift in Sources */,
 				23D3208F29CC661B0087E6EF /* LandmarkList.swift in Sources */,
 				239FABEA29C46455003FF50C /* ContentView.swift in Sources */,
